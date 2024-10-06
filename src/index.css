@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* directives are used to add css in any component  */
+@layer components {
+    .myContainer  {
+      @apply  container px-40 py-16 mx-auto;
+    }
+  }
+
+  /* to add styling to the different webpages */
+  .red{
+    background-color: rgb(102, 102, 183);
+    color:white;
+  }
+  li{
+    list-style:none;
+    padding: 15px;
+  }
